@@ -1,5 +1,20 @@
-git rm --cached "Supply Chain Intelligence Platform for Forecasting, Logistics, and Operational Analytics/DataCoSupplyChainDataset.csv"
+# ==========================
+# Large datasets (do not track)
+# ==========================
+Supply Chain Intelligence Platform for Forecasting, Logistics, and Operational Analytics/DataCoSupplyChainDataset.csv
+Supply Chain Intelligence Platform for Forecasting, Logistics, and Operational Analytics/cleaned_supplychain.csv
+Supply Chain Intelligence Platform for Forecasting, Logistics, and Operational Analytics/tokenized_access_logs.csv
 
-git rm --cached "Supply Chain Intelligence Platform for Forecasting, Logistics, and Operational Analytics/cleaned_supplychain.csv"
+# Ignore Python cache
+__pycache__/
+*.pyc
 
-git rm --cached "Supply Chain Intelligence Platform for Forecasting, Logistics, and Operational Analytics/tokenized_access_logs.csv"
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep README files
+!README.md
